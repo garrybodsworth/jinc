@@ -10,7 +10,7 @@ libjinc.a: tokens.o
 	$(CC) -c $(CFLAGS) $< -o $@
 
 test: jinc_test
-	./jinc_test
+	./jinc_test -f -v
 
 jinc_test: jinc_test.o
 	$(CC) -L. -ljinc $< -o $@
