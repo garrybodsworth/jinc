@@ -41,3 +41,8 @@ TODO
 
 * Lots more testing.
 * More examples of how to use the tokens.
+
+NOTES
+-----
+
+Unit tests use Greatest https://github.com/silentbicycle/greatest/
