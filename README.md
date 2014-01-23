@@ -22,7 +22,7 @@ How to use
 
 Simple example:
 
-'''
+```
 char* js = "{}";
 
 struct TokenParsingContext context = {0};
@@ -34,7 +34,7 @@ if (r == SUCCESS) {
 }
 
 TokenParsingContext_free(&context);
-'''
+```
 
 TODO
 ----
