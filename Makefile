@@ -15,7 +15,7 @@ test: jinc_test
 jinc_test: jinc_test.o
 	$(CC) -L. -ljinc $< -o $@
 
-jsmn_test.o: jinc_test.c libjinc.a
+jinc_test.o: jinc_test.c libjinc.a
 
 clean:
 	rm -f *.o
